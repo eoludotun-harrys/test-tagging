@@ -1,7 +1,7 @@
 name: Release
 on:
   push:
-    branches: [ * ]
+   # branches: [ * ]
 
 jobs:
   release:
@@ -20,8 +20,8 @@ jobs:
             @semantic-release/changelog
             @semantic-release/git
             conventional-changelog-eslint
-          branches: |
-            ['*']
+         # branches: |
+          #  ['*']
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

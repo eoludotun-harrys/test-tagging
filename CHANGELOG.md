@@ -1,3 +1,10 @@
+# [2.0.0](https://github.com/eoludotun-harrys/test-tagging/compare/v1.0.0...v2.0.0) (2021-11-23)
+
+
+### breaking
+
+* test- breaking or major ([7df93f7](https://github.com/eoludotun-harrys/test-tagging/commit/7df93f70bfd17e355dbd048a348e12aa67b4cac1))
+
 # 1.0.0 (2021-11-23)
 
 

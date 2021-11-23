@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/eoludotun-harrys/test-tagging/compare/v2.0.0...v2.1.0) (2021-11-23)
+
+
+### chore
+
+* test- chore or minor ([e173cd9](https://github.com/eoludotun-harrys/test-tagging/commit/e173cd98ce4c82020e3e55970fa879238224d509))
+
 # [2.0.0](https://github.com/eoludotun-harrys/test-tagging/compare/v1.0.0...v2.0.0) (2021-11-23)
 
 

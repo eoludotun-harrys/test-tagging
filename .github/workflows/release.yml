@@ -1,7 +1,7 @@
 name: Release
 on:
   push:
-   # branches: [ * ]
+    branches: [ master ]
 
 jobs:
   release:
@@ -17,11 +17,11 @@ jobs:
         with:
           semantic_version: 16
           extra_plugins: |
-           # @semantic-release/changelog
+            @semantic-release/changelog
             @semantic-release/git
             conventional-changelog-eslint
-         # branches: |
-          #  ['*']
+          branches: |
+            ['master']
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

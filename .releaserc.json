@@ -1,16 +1,18 @@
 {
-  "branch": "branch",
+  "branch": "master",
   "plugins": [
     [
       "@semantic-release/commit-analyzer",
       {
         "preset": "eslint",
         "releaseRules": [
-          { "tag": "breaking", "release": "major" },
-          { "tag": "chore", "release": "minor" },
-          { "tag": "fix", "release": "patch" },
-          { "tag": "feat", "release": "minor" },
-          { "tag": "update", "release": "minor" }
+          { "tag": "Breaking", "release": "major" },
+          { "tag": "Build", "release": "minor" },
+          { "tag": "Chore", "release": "minor" },
+          { "tag": "Fix", "release": "patch" },
+          { "tag": "New", "release": "minor" },
+          { "tag": "Update", "release": "minor" },
+          { "tag": "Upgrade", "release": "minor" }
         ]
       }
     ],
@@ -19,16 +21,18 @@
       {
         "preset": "eslint",
         "releaseRules": [
-          { "tag": "breaking", "release": "major" },
-          { "tag": "chore", "release": "minor" },
-          { "tag": "fix", "release": "patch" },
-          { "tag": "feat", "release": "minor" },
-          { "tag": "update", "release": "minor" }
+          { "tag": "Breaking", "release": "major" },
+          { "tag": "Build", "release": "minor" },
+          { "tag": "Chore", "release": "minor" },
+          { "tag": "Fix", "release": "patch" },
+          { "tag": "New", "release": "minor" },
+          { "tag": "Update", "release": "minor" },
+          { "tag": "Upgrade", "release": "minor" }
         ]
       }
     ],
     [
-     # "@semantic-release/changelog",
+      "@semantic-release/changelog",
       {
         "changelogFile": "CHANGELOG.md"
       }
